@@ -4,7 +4,7 @@ import asyncio
 import aiohttp
 
 import requests
-
+#The API used
 URL = "https://picsum.photos/"
 
 
