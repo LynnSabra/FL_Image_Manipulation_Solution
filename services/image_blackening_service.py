@@ -24,7 +24,7 @@ class ImageBlackeningService:
             print(e)
             pass
         return image
-
+#taking the dataset as an input
     def process_dataset(self, dataset: Dataset):
         for image_class in dataset.image_classes:
             for image in image_class.images:
