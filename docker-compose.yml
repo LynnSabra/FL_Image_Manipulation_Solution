@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  federated_learning_image_tools:
+    image: federated_learning_image_tools
+    build:
+      context: ./
+      dockerfile: ./docker/Dockerfile
+    container_name: federated_learning_image_tools
+    volumes:
+      - ./datasets:/app/datasets
+      - ./output:/app/output
+    ports:
+      - 6900:6900
