@@ -3,6 +3,7 @@ import random
 from Models.dataset import Dataset
 from services.dataset_service import DatasetService
 
+#image shuffling inside a label
 
 class ImageShufflingService:
     def __init__(self, dataset_service: DatasetService):
