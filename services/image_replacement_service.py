@@ -6,6 +6,7 @@ from clients.picsum_image_client import PicSumImageClient
 from services.dataset_service import DatasetService
 
 #image replacement services that will be link to the image manipulation controller
+#picsum API
 class ImageReplacementService:
     def __init__(self, dataset_service: DatasetService, image_client: PicSumImageClient):
         self.dataset_service = dataset_service
